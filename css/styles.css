@@ -1,10 +1,6 @@
 * {
 	font-family: 'Oxygen', sans-serif;
-}
-
-h1 {
-/*	text-align: center;
-*/	color: black;
+	color: black;
 }
 
 /** HEADER **/
@@ -17,6 +13,7 @@ h1 {
 
 .navbar-brand { /** Marca + Menu a la derecha **/
 	padding-top: 25px;
+	padding-bottom: 40px;
 }
 
 .navbar-brand h1 { /** Texto nombre de la Marca **/
@@ -67,12 +64,11 @@ h1 {
 #home-tiles div {
 	background-color: grey;
 	padding: 10px;
-	color: black;
+	margin-top: 20px;
 }
 
 h4 {
 	font-weight: bold;
-	text-align: center;
 }
 
 
