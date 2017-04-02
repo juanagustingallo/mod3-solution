@@ -5,20 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
+    <title>Moldule 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   </head>
+
 <body>
 
-  <h1>Hello Coursera!</h1>
+<!-- Header -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        
+        <div class="navbar-header">  
+          <!-- Nombre de la marca -->
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>Food, LLC</h1>
+            </a>
+          </div>
+
+          <!-- MENU: Botton para la pantalla chica (navbar-toggle) -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- MENU: para las pantallas mas grandes -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#chicken">
+                Chicken
+              </a>
+            </li>
+            <li>
+              <a href="#beef">
+                Beef
+              </a>
+            </li>
+            <li>
+              <a href="#sushi">
+                Sushi
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+  </header>
+
+  <div id="main-content" class="container">
+    
+    <h1 class="text-center">Our Menu</h1>
+
+    <div id="home-tiles" class="row">
+      <div id="chicken" class="col-md-4 col-sm-4 col-xs-12">
+        <p><h4>Chicken</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper, dui ut pretium blandit, dolor turpis rutrum ligula, sit amet pretium dui lorem at purus. Aenean vel ligula leo. Sed nec purus in purus viverra ullamcorper ut ullamcorper ante. Maecenas convallis orci id neque feugiat maximus. Nullam ut metus sed orci bibendum congue. Nullam vulputate risus id purus ullamcorper, ut rutrum justo vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer fermentum lorem augue, nec sagittis justo sollicitudin sed. Praesent feugiat ligula a gravida condimentum. Fusce euismod quam in felis porta, id gravida ante pellentesque. Nullam sed enim nec nunc interdum finibus. Nam lacinia consequat ante, sed congue libero. Vestibulum sed lorem mauris. Suspendisse sit amet dolor ut ex sagittis mollis vitae et ex. Donec pulvinar lorem eu arcu maximus, non fermentum dui ultrices.Suspendisse convallis quis quam ac faucibus. In egestas ullamcorper tortor vel faucibus. Duis pharetra pellentesque libero sit amet pellentesque. Integer faucibus mattis massa, rhoncus fringilla justo blandit vel. Nam et arcu eget odio scelerisque ornare vel id eros. In et sodales lectus. Nam dictum sem a fringilla scelerisque. Morbi commodo dolor at efficitur feugiat. Suspendisse vitae erat at elit sagittis bibendum. Curabitur efficitur lacus ac venenatis ultricies. Nullam ut erat nec magna fringilla porttitor. Donec eget aliquet libero, eu suscipit urna.
+        </p>
+      </div>
+      <div id="beef" class="col-md-4 col-sm-4 col-xs-12">
+        <p><h4>Beef</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper, dui ut pretium blandit, dolor turpis rutrum ligula, sit amet pretium dui lorem at purus. Aenean vel ligula leo. Sed nec purus in purus viverra ullamcorper ut ullamcorper ante. Maecenas convallis orci id neque feugiat maximus. Nullam ut metus sed orci bibendum congue. Nullam vulputate risus id purus ullamcorper, ut rutrum justo vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        </p>
+      </div>
+      <div id="sushi" class="col-md-4 col-sm-4 col-xs-12">
+        <p><h4>Sushi</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper, dui ut pretium blandit, dolor turpis rutrum ligula, sit amet pretium dui lorem at purus. Aenean vel ligula leo. Sed nec purus in purus viverra ullamcorper ut ullamcorper ante. Maecenas convallis orci id neque feugiat maximus. Nullam ut metus sed orci bibendum congue. Nullam vulputate risus id purus ullamcorper, ut rutrum justo vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer fermentum lorem augue, nec sagittis justo sollicitudin sed. Praesent feugiat ligula a gravida condimentum. Fusce euismod quam in felis porta, id gravida ante pellentesque. Nullam sed enim nec nunc interdum finibus. Nam lacinia consequat ante, sed congue libero. Vestibulum sed lorem mauris. Suspendisse sit amet dolor ut ex sagittis mollis vitae et ex. Donec pulvinar lorem eu arcu maximus, non fermentum dui ultrices.Suspendisse convallis quis quam ac faucibus. 
+        </p>
+      </div>
+    </div>
+  </div>
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

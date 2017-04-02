@@ -1,0 +1,79 @@
+* {
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+/*	text-align: center;
+*/	color: black;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 1px solid black;
+
+}
+
+.navbar-brand { /** Marca + Menu a la derecha **/
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { /** Texto nombre de la Marca **/
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus { /** Le saco el link subrayado **/
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	border: 1px solid black;
+	background-color: white;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+/** END HEADER **/
+
+
+
+
+/** MAIN CONTENT **/
+
+#home-tiles div {
+	background-color: grey;
+	padding: 10px;
+	color: black;
+}
+
+h4 {
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/** END MAIN CONTENT **/
