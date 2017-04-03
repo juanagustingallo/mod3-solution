@@ -62,9 +62,13 @@
 /** MAIN CONTENT **/
 
 #home-tiles div {
-	background-color: grey;
 	padding: 10px;
 	margin-top: 20px;
+}
+
+#section-wrapper {
+	margin: 10px;
+	background-color: grey;
 }
 
 h4 {
